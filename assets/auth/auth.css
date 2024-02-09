@@ -1,0 +1,21 @@
+form{
+    border: 2px solid #aca4a4;
+    border-radius: 3px;
+    width: 50%;
+    margin: 1rem auto;
+}
+form label{
+    display: block;
+}
+form input[type="submit"],a{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+#link{
+    text-decoration: underline;
+    color: blueviolet;
+}

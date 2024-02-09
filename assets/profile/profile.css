@@ -1,0 +1,18 @@
+input,label{
+    display: block;
+    width: 100%;
+}
+label{
+    margin-bottom: 1rem;
+}
+form{
+    position: relative;
+}
+p.titleText{
+    display: inline-block;
+    position: absolute;
+    top: -1.3rem;
+    left: 1rem;
+    background-color: white;
+    padding: .5rem;
+}

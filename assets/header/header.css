@@ -1,0 +1,21 @@
+#title{
+    margin: 0;
+    font-size: larger;
+    font-weight: 600;
+}
+header{
+    border-bottom: 3px solid black;
+    background-color: red;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.head-link{
+    text-decoration: none;
+    color: white;
+}
+p.error{
+    background-color: red;
+    text-align: center;
+}

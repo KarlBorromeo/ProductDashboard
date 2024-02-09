@@ -1,0 +1,57 @@
+label{
+    display: block!important;
+}
+p{
+    display: inline-block;
+    margin: 0!important;
+}
+p.info{
+    width:70%;
+    text-overflow:wrap;
+    padding-left: .5rem;
+    font-weight: 600;
+}
+form h6{
+    font-style: oblique;
+}
+form textarea{
+    width: 100%;
+    resize: none;
+    height: 5rem;
+    padding: .5rem;
+    border-radius: 5px;
+}
+form input[type="submit"]{
+    position: relative;
+    left: 100%;
+    transform: translateX(-100%);
+}
+.reply{
+    width: 80%;
+    position: relative;
+    left: 100%;
+    transform: translateX(-100%);
+}
+.reply p{
+    width: 100%;
+}
+.review p{
+    width: 100%;
+}
+.review, .reply{
+    margin-top: .5rem;
+}
+.review p, .reply p{
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);;
+    padding: 1rem;
+}
+#review_reply-cont{
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+span{
+    font-weight: 600;
+    font-size: smaller;
+}
